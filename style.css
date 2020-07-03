@@ -1,0 +1,102 @@
+body{
+  background-color: #000000;
+  font-family: 'georgia', serif;
+}
+nav {
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 63px;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+#brand {
+  float: left;
+  font-size: 29px;
+}
+.nav-link{
+  color: 	#FFFFFF;
+  text-decoration: none;
+  font-family: 'Acme';
+}
+.nav-link:hover {
+  font-weight: bold;
+}
+h1 {
+  font-size: 15pt;
+  font-family: 'Acme', 'georgia', serif; 
+  color: #A52A2A;
+}
+#home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px;
+  width: 100vw;
+  height: 30vh; 
+  padding-top: 3em;
+  background: url('https://images.pexels.com/photos/345092/pexels-photo-345092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') center 75% no-repeat fixed; 
+  background-size: cover;
+}
+.header-tag {
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+h2 {
+  font-family: 'Acme', 'georgia', serif;
+  color: 	#FFFFFF;
+}
+.main {
+  text-align: center;
+}
+#about {
+  margin-top: 50px;
+  display: inline-block;
+}
+#about-picture {
+  width: 30vw;
+  float: left;
+}
+p {
+  color: 	#FFFFFF;
+}
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 0.4em;
+  box-shadow: 2px 2px 2px lightblue;
+}
+#about-content {
+  width: 40vw;
+  float: right;
+}
+p {
+  padding-top: 3em;
+  font-family: 'Acme', 'georgia', serif;
+  font-size: 15pt; 
+}
+h3 {
+  padding-top: 3em;
+  font-size: 15pt;
+  font-family: 'Acme', 'georgia', serif; 
+  color: #FFFFFF;
+  text-align: center;
+}
+h4 {
+  font-size: 12pt;
+  font-family: 'Acme', 'georgia', serif; 
+  color: #FFFFFF;
+}
+h5 {
+  padding-top: 3em;
+  font-size: 15pt;
+  font-family: 'Acme', 'georgia', serif; 
+  text-align: center; 
+}
